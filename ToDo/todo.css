@@ -1,0 +1,108 @@
+body{
+   background-image: linear-gradient(#14ada5 0%, #093d4f 100%);
+     color:#444;
+    padding: 35px 20px;
+    margin: 0;
+    position: relative;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+        
+}
+.container{
+    width: 400px;
+    max-width: 100%;
+    min-height: 500px;;
+    margin: 20px auto;
+    background-color: #f7f4fc;
+   
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+    overflow: hidden;
+    
+}
+input{
+    margin-top: 100px;
+    margin-left: 25px ;
+    padding: 0.2em  1em;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 2em;
+    border-radius: 3px;
+    border: 0;
+    min-width: 70%;
+    border: 1px solid #dddd;
+}
+input::placeholder{
+    color: rgba(0,0,0,0.3);
+  font-style: italic;;
+}
+.btn{
+    padding: 0.2em 1em;
+    line-height: 1em;
+    margin: 15px 0;
+    display: inline-block;
+    border-radius: 3px;
+    border: 0;
+    line-height: 2em;
+    min-width: 15%;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+    margin-right: 30px;
+    background: #6664ff;
+}
+form{
+    overflow: overlay;
+}
+.btn:hover{
+    background: #4442f6;
+    border-color: #4442f6
+}
+#myUL{
+  
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+ul li{
+    background: #e0e8f5;
+    margin-right: 30px;
+    margin-left: -14px;
+    padding: 12px 10px;
+    padding-left: 40px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+.close{
+    
+    color: black;
+  padding-right: 10px;
+    float: right;
+     
+  
+}
+
+
+
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+li:hover {
+    background: #d5deed;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
